@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.gridContato {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  margin-top: 2rem;
+}
+
+.imgContato {
+  grid-column: 1;
+}
+
+.imgContato img {
+  width: 90%;
+  height: auto;
+  
+  border-radius: 20px;
+  object-fit: contain;
+}
+
+.conteudoContato {
+  grid-column: 2;
+  padding: 15px;
+}
+
+.conteudoContato div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  font-size: 1.3rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.conteudoContato div h2 {
+  font-size: 1.7rem;
+  margin: 0 0 .8rem 0;
+}
+
+.conteudoContato div p::before {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 3px;
+  background: rgba(0, 0, 0, 0.685);
+}
+
+.conteudoContato div a {
+  display: flex;
+  justify-content: flex-start;
+  color: rgba(0, 0, 0, 0.699);
+  gap: 1rem;
+}
+
+.conteudoContato div img {
+  width: 32px;
+  height: 32px;
+}

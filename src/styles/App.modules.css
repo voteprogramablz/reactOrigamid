@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 60%;
+  margin: 15px auto 0 auto;
+  padding-top: 2vh;
+}
+
+.navigator {
+  display: flex;
+  text-align: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.button {
+  font-size: 1.5rem;
+  text-decoration: none;
+  line-height: 2.9rem;
+  color: #141414;
+  font-weight: 500;
+
+  width: 140px;
+  height: 3rem;
+  border-radius: 7px;
+  background: hsla(0, 0%, 0%, 0.178);
+}
+
+.button:hover {
+  background: hsla(0, 0%, 0%, 0.281);
+  color: #141414b7;
+}
+
+.button.active {
+  background: hsla(0, 0%, 0%, 0.281);
+  color: #141414;
+}

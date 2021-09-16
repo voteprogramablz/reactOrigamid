@@ -1,0 +1,20 @@
+.gridProdutos {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  row-gap: 50px;
+  column-gap: 10px;
+
+  margin-top: 2rem;
+}
+
+.gridItem {
+  overflow: hidden;
+}
+
+.gridItem img {
+  border-radius: 15px;
+
+  width: 95%;
+  height: auto;
+  object-fit: cover;
+}
