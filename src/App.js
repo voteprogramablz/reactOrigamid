@@ -6,11 +6,8 @@ import Contato from "./Pages/Contato";
 
 import "./styles/App.modules.css";
 import Footer from "./Pages/Footer";
-
-// Utilize a API abaixo para puxar a lista de produto
-// https://ranekapi.origamid.dev/json/api/produto
-// Cada produto possui o id, o mesmo pode ser passado na api para retornar os dados desse produto específico
-// https://ranekapi.origamid.dev/json/api/produto/notebook
+import NotFound from "./components/NotFound";
+import Produto from "./Pages/Produto";
 
 const App = () => {
   return (
@@ -25,8 +22,10 @@ const App = () => {
           </NavLink>
         </nav>
         <Routes>
-          <Route path="" element={<Produtos />}></Route>
-          <Route path="contato" element={<Contato />}></Route>
+          <Route path="" element={<Produtos />} />
+          <Route path="contato" element={<Contato />} />
+          <Route path="produto/:id/*" element={<Produto />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       <Footer />
         

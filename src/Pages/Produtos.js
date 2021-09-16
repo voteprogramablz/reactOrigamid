@@ -1,32 +1,34 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "../styles/Produtos.modules.css";
+import "../styles/Geral.modules.css";
+import Head from "../components/Head";
 
 const Produtos = () => {
   const [produtos, setProdutos] = React.useState([]);
-  const [loading, setLoading] = React.useState(false);
 
   React.useEffect(() => {
     async function produtosFetch() {
-      setLoading('Carregando');
       const podutosResponse = await fetch(
         "https://ranekapi.origamid.dev/json/api/produto"
       );
       const produtosJson = await podutosResponse.json();
       setProdutos([...produtosJson]);
-      setLoading(false);
     }
     produtosFetch();
   }, []);
 
-  if(loading) <p>Carregando</p>
   return (
-    <div className="gridProdutos">
+    <div className="gridProdutos enterAnimation">
+      <Head title="Produtos" description="Produtos da nossa loja" />
       {produtos &&
-        produtos.map((produto) => (
-          <div className="gridItem" key={produto.id}>
-            <img src={produto.fotos[0].src} alt={produto.fotos[0].titulo} />
-            <h1>{produto.nome}</h1>
+        produtos.map(({ id, fotos, nome }) => (
+          <div className="gridItem" key={id}>
+            <Link to={`/produto/${id}`}>
+              <img src={fotos[0].src} alt={fotos[0].titulo} />
+            </Link>
+            <h1>{nome}</h1>
           </div>
         ))}
     </div>

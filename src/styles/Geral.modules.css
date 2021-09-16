@@ -1,0 +1,11 @@
+.enterAnimation {
+  animation:showLeft .4s forwards;
+}
+
+@keyframes showLeft {
+  from {
+    transform: translateX(-50px);
+  } to {
+    transform: translateX(0);
+  }
+}

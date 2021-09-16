@@ -1,9 +1,13 @@
 import React from 'react';
+import Head from '../components/Head';
 import '../styles/Contato.modules.css';
+import "../styles/Geral.modules.css";
+
 
 const Contato = () => {
   return (
-    <div className="gridContato">
+    <div className="gridContato enterAnimation">
+      <Head title="Contato" description="Página para contato" />
       <div className="imgContato">
         <img src="https://images.unsplash.com/photo-1586769852044-692d6e3703f0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Imagem ilustrativa de Contato" />
       </div>
