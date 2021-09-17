@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/voteprogramablz/reactOrigamid/static/css/main.91142a47.chunk.css",
-    "main.js": "/voteprogramablz/reactOrigamid/static/js/main.4799fb96.chunk.js",
-    "main.js.map": "/voteprogramablz/reactOrigamid/static/js/main.4799fb96.chunk.js.map",
+    "main.js": "/voteprogramablz/reactOrigamid/static/js/main.d99a8d26.chunk.js",
+    "main.js.map": "/voteprogramablz/reactOrigamid/static/js/main.d99a8d26.chunk.js.map",
     "runtime-main.js": "/voteprogramablz/reactOrigamid/static/js/runtime-main.0d4bc0fd.js",
     "runtime-main.js.map": "/voteprogramablz/reactOrigamid/static/js/runtime-main.0d4bc0fd.js.map",
     "static/js/2.c65b184a.chunk.js": "/voteprogramablz/reactOrigamid/static/js/2.c65b184a.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.0d4bc0fd.js",
     "static/js/2.c65b184a.chunk.js",
     "static/css/main.91142a47.chunk.css",
-    "static/js/main.4799fb96.chunk.js"
+    "static/js/main.d99a8d26.chunk.js"
   ]
 }
