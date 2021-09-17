@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/voteprogramablz/reactOrigamid/static/css/main.91142a47.chunk.css",
+    "main.js": "/voteprogramablz/reactOrigamid/static/js/main.20575f8a.chunk.js",
+    "main.js.map": "/voteprogramablz/reactOrigamid/static/js/main.20575f8a.chunk.js.map",
+    "runtime-main.js": "/voteprogramablz/reactOrigamid/static/js/runtime-main.0d4bc0fd.js",
+    "runtime-main.js.map": "/voteprogramablz/reactOrigamid/static/js/runtime-main.0d4bc0fd.js.map",
+    "static/js/2.e70cae60.chunk.js": "/voteprogramablz/reactOrigamid/static/js/2.e70cae60.chunk.js",
+    "static/js/2.e70cae60.chunk.js.map": "/voteprogramablz/reactOrigamid/static/js/2.e70cae60.chunk.js.map",
+    "index.html": "/voteprogramablz/reactOrigamid/index.html",
+    "static/css/main.91142a47.chunk.css.map": "/voteprogramablz/reactOrigamid/static/css/main.91142a47.chunk.css.map",
+    "static/js/2.e70cae60.chunk.js.LICENSE.txt": "/voteprogramablz/reactOrigamid/static/js/2.e70cae60.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0d4bc0fd.js",
+    "static/js/2.e70cae60.chunk.js",
+    "static/css/main.91142a47.chunk.css",
+    "static/js/main.20575f8a.chunk.js"
+  ]
+}
