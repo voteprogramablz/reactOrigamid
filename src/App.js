@@ -12,7 +12,7 @@ import Produto from "./Pages/Produto";
 const App = () => {
   return (
     <div className="container">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <nav className="navigator">
           <NavLink to="/" end className="button">
             Produtos
